@@ -1,16 +1,9 @@
 # locate_me
 
-A new Flutter project.
+"Locate Me" is a Flutter project that helps users find the optimal locations for setting up warehouses in a given region. It allows users to input the number of cities and their respective distances in a distance matrix. The user also specifies the number of warehouses they want to establish.
 
-## Getting Started
+The project utilizes an algorithm to identify the best warehouse locations based on minimizing the maximum distance between cities and their nearest warehouses. It selects the warehouses iteratively by considering the distances and calculates the maximum distance from any city to its nearest warehouse.
 
-This project is a starting point for a Flutter application.
+Once the computation is completed, the project displays the maximum distance value, representing the farthest distance between any city and its nearest warehouse. Additionally, it shows the selected cities that have been identified as optimal warehouse locations.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The user interface of "Locate Me" is designed to be user-friendly and visually appealing, with clear input fields, interactive distance matrix entries, and well-organized output sections. The project aims to provide an intuitive tool for businesses or individuals involved in logistics or distribution to optimize their warehouse placement strategy in a given area.
